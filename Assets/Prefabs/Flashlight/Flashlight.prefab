@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4457291000996897407}
   - component: {fileID: 6138856665730110634}
   - component: {fileID: 8875688088742595788}
+  - component: {fileID: -7164923583604049393}
   m_Layer: 6
   m_Name: Flashlight
   m_TagString: Untagged
@@ -271,6 +272,20 @@ MonoBehaviour:
   rightHandAttachPoint: {fileID: 9139897006261596429}
   leftHandTag: Left Hand Controller
   leftHandAttachPoint: {fileID: 2122729886}
+--- !u!114 &-7164923583604049393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002705123656268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f790e9b644b7da4a823b8f728123488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 8875688088742595788}
+  lightBeam: {fileID: 108038271100546340}
 --- !u!1 &1175331865632600
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4520318622635210
 Transform:
   m_ObjectHideFlags: 0
@@ -310,7 +325,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175331865632600}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0

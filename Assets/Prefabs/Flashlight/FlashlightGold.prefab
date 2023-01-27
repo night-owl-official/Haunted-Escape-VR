@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4759321975041108
 Transform:
   m_ObjectHideFlags: 0
@@ -39,7 +39,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130842716983982}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 1321729608175781720}
   - component: {fileID: 2236257858574306918}
   - component: {fileID: 956733236952530615}
+  - component: {fileID: -698785639479175699}
   m_Layer: 6
   m_Name: FlashlightGold
   m_TagString: Untagged
@@ -334,6 +335,20 @@ MonoBehaviour:
   rightHandAttachPoint: {fileID: 1609167471485960656}
   leftHandTag: Left Hand Controller
   leftHandAttachPoint: {fileID: 2618541072393064035}
+--- !u!114 &-698785639479175699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298584834357058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f790e9b644b7da4a823b8f728123488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 956733236952530615}
+  lightBeam: {fileID: 108490535558035930}
 --- !u!1 &962032141407948764
 GameObject:
   m_ObjectHideFlags: 0
